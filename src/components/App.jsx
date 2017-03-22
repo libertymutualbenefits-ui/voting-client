@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory} from 'react-router';
 import Voting from './Voting';
 import Header from './Header';
 import Nav from './Nav';
 import '../App.css';
 
-// const routes = <Route component={App}>
-//   <Route path="/" component={Voting} />
-// </Route>;
-
-class App extends Component {
+export class App extends Component {
   render() {
     const pair = ['Trainspotting', '28 Days Later'];
     return (
@@ -25,8 +19,3 @@ class App extends Component {
 }
 
 export default App;
-
-// ReactDOM.render(
-//   <Router history={hashHistory}>{routes}</Router>,
-//   document.getElementById('app')
-// );
