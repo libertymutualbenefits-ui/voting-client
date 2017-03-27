@@ -1,7 +1,8 @@
-import combineReducers from Redux;
+import {combineReducers} from 'redux';
+import petReducer from './reducers/petReducer';
 
 export default combineReducers({
-  Vote: votingReducer
+  pet: petReducer
 })
 
 

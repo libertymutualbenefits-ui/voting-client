@@ -5,9 +5,10 @@ export default React.createClass({
   render: function() {
     return <nav>
       <ul>
-        <li>Home</li>
-        <li>Buy</li>
-        <li>Contact</li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/petlist">My Pets</a></li>
+        <li><a href="/buy">Buy</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>;
   }
