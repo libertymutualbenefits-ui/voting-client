@@ -13,9 +13,6 @@ class Login extends React.Component{
   responseFacebook (response) {
     console.log(response);
     this.login();
-    // Login.login();
-    // this.login();
-    //anything else you want to do(save to localStorage)...
   }
 
   componentClicked (event) {
@@ -37,7 +34,6 @@ class Login extends React.Component{
   }
 
   login(event){
-    // console.log('calling login from Login.jsx');
     this.props.login();
   }
 
