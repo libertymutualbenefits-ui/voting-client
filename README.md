@@ -1,3 +1,8 @@
+Due to the next steps of this project involving work for the company and not just generic learning, this has been moved into a private LM repo. Hopefully, we can open source more of our work in the future!
+<br>
+<br>
+<br>
+<br>
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
